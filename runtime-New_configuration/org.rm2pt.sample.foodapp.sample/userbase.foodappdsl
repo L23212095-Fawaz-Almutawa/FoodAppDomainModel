@@ -1,0 +1,17 @@
+UserBase {
+	users
+	{
+		Customer "Trevor" {
+			username trev1
+		},
+		DeliveryDriver "Micheal" {
+			vehicleType car
+		},
+		CustomerService "Mary" {
+			phoneNumber "123123123"
+		},
+		RestaurantManager "Thai Food" {
+			cuisine Thai
+		}
+	}
+}

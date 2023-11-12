@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foodapp:UserBase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foodapp="http://www.rm2pt.com/foodapp">
+  <users xsi:type="foodapp:CustomerService" username="cust1" password="123" id="401" phoneNumber="123456" name="Lina" restaurantmanager="//@users.3" deliverydriver="//@users.2" customer="//@users.1"/>
+  <users xsi:type="foodapp:Customer" username="cust1" password="123" id="1001" phoneNumber="444112312" name="John" address="123213213 st" email="cust1@gmail.com" customerservice="//@users.0" deliverydriver="//@users.2"/>
+  <users xsi:type="foodapp:DeliveryDriver" username="dd1" password="112233" id="2001" phoneNumber="901287716" name="Adam" vehicleNumber="FA5Q21" vehicleType="Motorcycle" customerservice="//@users.0" customer="//@users.1"/>
+  <users xsi:type="foodapp:RestaurantManager" username="rm1" password="112211" id="3001" phoneNumber="2721648137" name="Tokyo Restaurant" address="123 fake street" cuisine="Japanese" customerservice="//@users.0"/>
+  <users xsi:type="foodapp:Customer" name="customer2"/>
+  <users xsi:type="foodapp:CustomerService" name="customerservice2"/>
+  <users xsi:type="foodapp:DeliveryDriver" name="deliverydriver2"/>
+  <users xsi:type="foodapp:RestaurantManager" name="restaurantmanager2"/>
+</foodapp:UserBase>

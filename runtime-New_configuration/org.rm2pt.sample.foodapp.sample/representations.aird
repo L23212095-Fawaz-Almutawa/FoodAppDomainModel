@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:foodapp="http://www.rm2pt.com/foodapp" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_ns29UH-sEe63Hd5pMxCbjQ" selectedViews="_YMLEYH-xEe6iRO5E-4Wn8Q" version="14.5.1.202106111100">
+    <semanticResources>My.foodapp</semanticResources>
+    <semanticResources>userbase.foodappdsl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_YMLEYH-xEe6iRO5E-4Wn8Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_5XbIUn-xEe6iRO5E-4Wn8Q" name="new Users diagram" repPath="#_5XbIUH-xEe6iRO5E-4Wn8Q" changeId="bc8d1720-da81-4c79-ab85-6247080efb94">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']"/>
+        <target xmi:type="foodapp:UserBase" href="My.foodapp#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_5XbIUH-xEe6iRO5E-4Wn8Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5XbvYH-xEe6iRO5E-4Wn8Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_5XbvYX-xEe6iRO5E-4Wn8Q" type="Sirius" element="_5XbIUH-xEe6iRO5E-4Wn8Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_75QtcIEmEe6tz4rScLdLxQ" type="2001" element="_75IxoYEmEe6tz4rScLdLxQ">
+          <children xmi:type="notation:Node" xmi:id="_75Qtc4EmEe6tz4rScLdLxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_75QtdIEmEe6tz4rScLdLxQ" y="84"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_75R7k4EmEe6tz4rScLdLxQ" type="3003" element="_75IxooEmEe6tz4rScLdLxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_75R7lIEmEe6tz4rScLdLxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_75R7lYEmEe6tz4rScLdLxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_75QtcYEmEe6tz4rScLdLxQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_75QtcoEmEe6tz4rScLdLxQ" x="594" y="432" width="325" height="127"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_A5Dy0IEoEe6_aJTejej71g" type="2001" element="_A46B0IEoEe6_aJTejej71g">
+          <children xmi:type="notation:Node" xmi:id="_A5HdMIEoEe6_aJTejej71g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_A5HdMYEoEe6_aJTejej71g" x="198" y="113"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A5IEQIEoEe6_aJTejej71g" type="3003" element="_A473AIEoEe6_aJTejej71g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_A5IEQYEoEe6_aJTejej71g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A5IEQoEoEe6_aJTejej71g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A5Dy0YEoEe6_aJTejej71g" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A5Dy0oEoEe6_aJTejej71g" x="1152" y="684" width="235" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_JndUEIEtEe6xtPcKsQAuvg" type="2001" element="_JnTjFIEtEe6xtPcKsQAuvg">
+          <children xmi:type="notation:Node" xmi:id="_JnmeAIEtEe6xtPcKsQAuvg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JnmeAYEtEe6xtPcKsQAuvg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JnqvcoEtEe6xtPcKsQAuvg" type="3003" element="_JnTjFYEtEe6xtPcKsQAuvg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Jnqvc4EtEe6xtPcKsQAuvg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JnqvdIEtEe6xtPcKsQAuvg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_JndUEYEtEe6xtPcKsQAuvg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JndUEoEtEe6xtPcKsQAuvg" x="162" y="663" width="217" height="91"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_JnmeAoEtEe6xtPcKsQAuvg" type="2001" element="_JnTjF4EtEe6xtPcKsQAuvg">
+          <children xmi:type="notation:Node" xmi:id="_JnqvcIEtEe6xtPcKsQAuvg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JnqvcYEtEe6xtPcKsQAuvg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JnqvdYEtEe6xtPcKsQAuvg" type="3003" element="_JnTjGIEtEe6xtPcKsQAuvg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JnqvdoEtEe6xtPcKsQAuvg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jnqvd4EtEe6xtPcKsQAuvg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_JnmeA4EtEe6xtPcKsQAuvg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JnmeBIEtEe6xtPcKsQAuvg" x="990" y="90" width="397" height="217"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_mhwpwIE5Ee6LXbDmexmkuA" type="2001" element="_mhp8EIE5Ee6LXbDmexmkuA">
+          <children xmi:type="notation:Node" xmi:id="_mhzGAIE5Ee6LXbDmexmkuA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_mhzGAYE5Ee6LXbDmexmkuA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mhztEIE5Ee6LXbDmexmkuA" type="3003" element="_mhqjIIE5Ee6LXbDmexmkuA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mhztEYE5Ee6LXbDmexmkuA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mhztEoE5Ee6LXbDmexmkuA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_mhwpwYE5Ee6LXbDmexmkuA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mhwpwoE5Ee6LXbDmexmkuA" x="108" y="108" width="397" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_nAhpaIE5Ee6LXbDmexmkuA" type="2001" element="_nAemEIE5Ee6LXbDmexmkuA">
+          <children xmi:type="notation:Node" xmi:id="_nAiQcIE5Ee6LXbDmexmkuA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nAiQcYE5Ee6LXbDmexmkuA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nAiQcoE5Ee6LXbDmexmkuA" type="3003" element="_nAemEYE5Ee6LXbDmexmkuA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_nAiQc4E5Ee6LXbDmexmkuA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAiQdIE5Ee6LXbDmexmkuA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_nAhpaYE5Ee6LXbDmexmkuA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAhpaoE5Ee6LXbDmexmkuA" x="72" y="252" width="271" height="145"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_nsNDoIE5Ee6LXbDmexmkuA" type="2001" element="_nsJZQIE5Ee6LXbDmexmkuA">
+          <children xmi:type="notation:Node" xmi:id="_nsNDo4E5Ee6LXbDmexmkuA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nsNDpIE5Ee6LXbDmexmkuA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nsNqsIE5Ee6LXbDmexmkuA" type="3003" element="_nsKAUIE5Ee6LXbDmexmkuA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_nsNqsYE5Ee6LXbDmexmkuA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nsNqsoE5Ee6LXbDmexmkuA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_nsNDoYE5Ee6LXbDmexmkuA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nsNDooE5Ee6LXbDmexmkuA" x="576" y="72" width="253" height="109"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ok93oIE5Ee6LXbDmexmkuA" type="2001" element="_ok60UIE5Ee6LXbDmexmkuA">
+          <children xmi:type="notation:Node" xmi:id="_ok93o4E5Ee6LXbDmexmkuA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ok93pIE5Ee6LXbDmexmkuA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ok-esIE5Ee6LXbDmexmkuA" type="3003" element="_ok60UYE5Ee6LXbDmexmkuA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ok-esYE5Ee6LXbDmexmkuA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ok-esoE5Ee6LXbDmexmkuA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ok93oYE5Ee6LXbDmexmkuA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ok93ooE5Ee6LXbDmexmkuA" x="378" y="216" width="271" height="109"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WmZ0wIFDEe6z4rIlbqreZg" type="2001" element="_WmR49oFDEe6z4rIlbqreZg">
+          <children xmi:type="notation:Node" xmi:id="_WmhJgIFDEe6z4rIlbqreZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WmhJgYFDEe6z4rIlbqreZg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WmkM0IFDEe6z4rIlbqreZg" type="3003" element="_WmR494FDEe6z4rIlbqreZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WmkM0YFDEe6z4rIlbqreZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmkM0oFDEe6z4rIlbqreZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WmZ0wYFDEe6z4rIlbqreZg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmZ0woFDEe6z4rIlbqreZg" x="1296" y="522" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WmhwkIFDEe6z4rIlbqreZg" type="2001" element="_WmO1pIFDEe6z4rIlbqreZg">
+          <children xmi:type="notation:Node" xmi:id="_WmiXoIFDEe6z4rIlbqreZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WmiXoYFDEe6z4rIlbqreZg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Wmkz4IFDEe6z4rIlbqreZg" type="3003" element="_WmR48IFDEe6z4rIlbqreZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Wmkz4YFDEe6z4rIlbqreZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wmkz4oFDEe6z4rIlbqreZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WmhwkYFDEe6z4rIlbqreZg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmhwkoFDEe6z4rIlbqreZg" x="1220" y="450" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WmiXooFDEe6z4rIlbqreZg" type="2001" element="_WmTuJIFDEe6z4rIlbqreZg">
+          <children xmi:type="notation:Node" xmi:id="_Wmi-sIFDEe6z4rIlbqreZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Wmi-sYFDEe6z4rIlbqreZg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Wmla8IFDEe6z4rIlbqreZg" type="3003" element="_WmTuJYFDEe6z4rIlbqreZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Wmla8YFDEe6z4rIlbqreZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wmla8oFDEe6z4rIlbqreZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WmiXo4FDEe6z4rIlbqreZg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmiXpIFDEe6z4rIlbqreZg" x="1368" y="450" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Wmi-soFDEe6z4rIlbqreZg" type="2001" element="_WmTuK4FDEe6z4rIlbqreZg">
+          <children xmi:type="notation:Node" xmi:id="_Wmi-tYFDEe6z4rIlbqreZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Wmi-toFDEe6z4rIlbqreZg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Wmla84FDEe6z4rIlbqreZg" type="3003" element="_WmTuLIFDEe6z4rIlbqreZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Wmla9IFDEe6z4rIlbqreZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wmla9YFDEe6z4rIlbqreZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Wmi-s4FDEe6z4rIlbqreZg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wmi-tIFDEe6z4rIlbqreZg" x="1242" y="378" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_5XbvYn-xEe6iRO5E-4Wn8Q"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Ef9gsIErEe6F6MrYNqhpuQ" type="4001" element="_EfzvsIErEe6F6MrYNqhpuQ" source="_A5Dy0IEoEe6_aJTejej71g" target="_75QtcIEmEe6tz4rScLdLxQ">
+          <children xmi:type="notation:Node" xmi:id="_EgGqoIErEe6F6MrYNqhpuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EgGqoYErEe6F6MrYNqhpuQ" x="4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EgGqooErEe6F6MrYNqhpuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EgGqo4ErEe6F6MrYNqhpuQ" x="-22" y="-24"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EgGqpIErEe6F6MrYNqhpuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EgGqpYErEe6F6MrYNqhpuQ" x="-3" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Ef9gsYErEe6F6MrYNqhpuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Ef9gsoErEe6F6MrYNqhpuQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ef9gs4ErEe6F6MrYNqhpuQ" points="[44, -25, 602, 227]$[76, -43, 634, 209]$[22, -79, 580, 173]$[-32, -97, 526, 155]$[-122, -133, 436, 119]$[-283, -177, 275, 75]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EgQboIErEe6F6MrYNqhpuQ" id="(0.2127659574468085,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EgQboYErEe6F6MrYNqhpuQ" id="(0.15384615384615385,0.1968503937007874)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GkoGIIE2Ee65XNdS-5LDWQ" type="4001" element="_GkKMEIE2Ee65XNdS-5LDWQ" source="_75QtcIEmEe6tz4rScLdLxQ" target="_A5Dy0IEoEe6_aJTejej71g">
+          <children xmi:type="notation:Node" xmi:id="_GkwpAIE2Ee65XNdS-5LDWQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GkwpAYE2Ee65XNdS-5LDWQ" x="-3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Gk1hgIE2Ee65XNdS-5LDWQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk1hgYE2Ee65XNdS-5LDWQ" x="3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Gk2IkIE2Ee65XNdS-5LDWQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk2IkYE2Ee65XNdS-5LDWQ" x="7" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GkoGIYE2Ee65XNdS-5LDWQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GkoGIoE2Ee65XNdS-5LDWQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GkoGI4E2Ee65XNdS-5LDWQ" points="[275, 100, -283, -152]$[472, 173, -86, -79]$[530, 227, -28, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlBuwIE2Ee65XNdS-5LDWQ" id="(0.15384615384615385,0.1968503937007874)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlBuwYE2Ee65XNdS-5LDWQ" id="(0.2127659574468085,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GlCV0IE2Ee65XNdS-5LDWQ" type="4001" element="_GkMoUoE2Ee65XNdS-5LDWQ" source="_75QtcIEmEe6tz4rScLdLxQ" target="_JndUEIEtEe6xtPcKsQAuvg">
+          <children xmi:type="notation:Node" xmi:id="_GlC84IE2Ee65XNdS-5LDWQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlC84YE2Ee65XNdS-5LDWQ" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlC84oE2Ee65XNdS-5LDWQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlC844E2Ee65XNdS-5LDWQ" x="-13" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlC85IE2Ee65XNdS-5LDWQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlC85YE2Ee65XNdS-5LDWQ" x="-15" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GlCV0YE2Ee65XNdS-5LDWQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GlCV0oE2Ee65XNdS-5LDWQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GlCV04E2Ee65XNdS-5LDWQ" points="[-50, 33, 324, -218]$[-307, 206, 67, -45]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlEyEIE2Ee65XNdS-5LDWQ" id="(0.15384615384615385,0.1968503937007874)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlEyEYE2Ee65XNdS-5LDWQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GlEyEoE2Ee65XNdS-5LDWQ" type="4001" element="_GkPEkoE2Ee65XNdS-5LDWQ" source="_75QtcIEmEe6tz4rScLdLxQ" target="_JnmeAoEtEe6xtPcKsQAuvg">
+          <children xmi:type="notation:Node" xmi:id="_GlFZIIE2Ee65XNdS-5LDWQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZIYE2Ee65XNdS-5LDWQ" x="1" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZIoE2Ee65XNdS-5LDWQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZI4E2Ee65XNdS-5LDWQ" x="-2" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZJIE2Ee65XNdS-5LDWQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZJYE2Ee65XNdS-5LDWQ" x="-2" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GlEyE4E2Ee65XNdS-5LDWQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GlEyFIE2Ee65XNdS-5LDWQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GlEyFYE2Ee65XNdS-5LDWQ" points="[47, -25, -560, 297]$[520, -276, -87, 46]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlFZJoE2Ee65XNdS-5LDWQ" id="(0.15384615384615385,0.1968503937007874)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlFZJ4E2Ee65XNdS-5LDWQ" id="(0.6586901763224181,0.20967741935483872)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GlFZKIE2Ee65XNdS-5LDWQ" type="4001" element="_GkSH4IE2Ee65XNdS-5LDWQ" source="_JndUEIEtEe6xtPcKsQAuvg" target="_75QtcIEmEe6tz4rScLdLxQ">
+          <children xmi:type="notation:Node" xmi:id="_GlFZLIE2Ee65XNdS-5LDWQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZLYE2Ee65XNdS-5LDWQ" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZLoE2Ee65XNdS-5LDWQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZL4E2Ee65XNdS-5LDWQ" x="-9" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZMIE2Ee65XNdS-5LDWQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZMYE2Ee65XNdS-5LDWQ" x="-13" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GlFZKYE2Ee65XNdS-5LDWQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GlFZKoE2Ee65XNdS-5LDWQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GlFZK4E2Ee65XNdS-5LDWQ" points="[34, -45, -340, 206]$[144, -186, -230, 65]$[324, -237, -50, 14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlFZMoE2Ee65XNdS-5LDWQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlFZM4E2Ee65XNdS-5LDWQ" id="(0.15384615384615385,0.1968503937007874)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GlFZNIE2Ee65XNdS-5LDWQ" type="4001" element="_GkSH5YE2Ee65XNdS-5LDWQ" source="_JnmeAoEtEe6xtPcKsQAuvg" target="_75QtcIEmEe6tz4rScLdLxQ">
+          <children xmi:type="notation:Node" xmi:id="_GlFZOIE2Ee65XNdS-5LDWQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZOYE2Ee65XNdS-5LDWQ" x="-3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZOoE2Ee65XNdS-5LDWQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZO4E2Ee65XNdS-5LDWQ" x="3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GlFZPIE2Ee65XNdS-5LDWQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GlFZPYE2Ee65XNdS-5LDWQ" x="-99" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GlFZNYE2Ee65XNdS-5LDWQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GlFZNoE2Ee65XNdS-5LDWQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GlFZN4E2Ee65XNdS-5LDWQ" points="[-135, 45, 472, -277]$[-459, 153, 148, -169]$[-586, 297, 21, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlHOUIE2Ee65XNdS-5LDWQ" id="(0.6586901763224181,0.20967741935483872)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GlHOUYE2Ee65XNdS-5LDWQ" id="(0.15384615384615385,0.1968503937007874)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_DgSV8IE3Ee6rId678vqWpQ" type="4001" element="_DgCeVIE3Ee6rId678vqWpQ" source="_A5Dy0IEoEe6_aJTejej71g" target="_JndUEIEtEe6xtPcKsQAuvg">
+          <children xmi:type="notation:Node" xmi:id="_DgZDoIE3Ee6rId678vqWpQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgZDoYE3Ee6rId678vqWpQ" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DgaRwIE3Ee6rId678vqWpQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgaRwYE3Ee6rId678vqWpQ" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DgaRwoE3Ee6rId678vqWpQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgaRw4E3Ee6rId678vqWpQ" x="-1" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_DgSV8YE3Ee6rId678vqWpQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DgSV8oE3Ee6rId678vqWpQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgSV84E3Ee6rId678vqWpQ" points="[-117, 11, 882, 12]$[-477, 47, 522, 48]$[-890, 9, 109, 10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Dgkp0IE3Ee6rId678vqWpQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DglQ4IE3Ee6rId678vqWpQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Dgl38IE3Ee6rId678vqWpQ" type="4001" element="_DgGvwIE3Ee6rId678vqWpQ" source="_JndUEIEtEe6xtPcKsQAuvg" target="_A5Dy0IEoEe6_aJTejej71g">
+          <children xmi:type="notation:Node" xmi:id="_DgmfAIE3Ee6rId678vqWpQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgmfAYE3Ee6rId678vqWpQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DgmfAoE3Ee6rId678vqWpQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgmfA4E3Ee6rId678vqWpQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DgnGEIE3Ee6rId678vqWpQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DgnGEYE3Ee6rId678vqWpQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Dgl38YE3Ee6rId678vqWpQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Dgl38oE3Ee6rId678vqWpQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dgl384E3Ee6rId678vqWpQ" points="[109, -5, -890, -6]$[522, -24, -477, -25]$[882, -6, -117, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DgnGEoE3Ee6rId678vqWpQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DgnGE4E3Ee6rId678vqWpQ" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5XeLoH-xEe6iRO5E-4Wn8Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_5XeLoX-xEe6iRO5E-4Wn8Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_75IxoYEmEe6tz4rScLdLxQ" name="Lina" outgoingEdges="_GkKMEIE2Ee65XNdS-5LDWQ _GkMoUoE2Ee65XNdS-5LDWQ _GkPEkoE2Ee65XNdS-5LDWQ" incomingEdges="_EfzvsIErEe6F6MrYNqhpuQ _GkSH4IE2Ee65XNdS-5LDWQ _GkSH5YE2Ee65XNdS-5LDWQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.0"/>
+      <semanticElements xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_75IxooEmEe6tz4rScLdLxQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_nAemEIE5Ee6LXbDmexmkuA" name="customerservice2" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.5"/>
+      <semanticElements xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.5"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_nAemEYE5Ee6LXbDmexmkuA" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WmR49oFDEe6z4rIlbqreZg" name="&quot;Mary&quot;" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:CustomerService" href="userbase.foodappdsl#//@users.2"/>
+      <semanticElements xmi:type="foodapp:CustomerService" href="userbase.foodappdsl#//@users.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_WmR494FDEe6z4rIlbqreZg" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_A46B0IEoEe6_aJTejej71g" name="John" outgoingEdges="_EfzvsIErEe6F6MrYNqhpuQ _DgCeVIE3Ee6rId678vqWpQ" incomingEdges="_GkKMEIE2Ee65XNdS-5LDWQ _DgGvwIE3Ee6rId678vqWpQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:Customer" href="My.foodapp#//@users.1"/>
+      <semanticElements xmi:type="foodapp:Customer" href="My.foodapp#//@users.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_A473AIEoEe6_aJTejej71g" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_mhp8EIE5Ee6LXbDmexmkuA" name="customer2" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:Customer" href="My.foodapp#//@users.4"/>
+      <semanticElements xmi:type="foodapp:Customer" href="My.foodapp#//@users.4"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_mhqjIIE5Ee6LXbDmexmkuA" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WmO1pIFDEe6z4rIlbqreZg" name="&quot;Trevor&quot;" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:Customer" href="userbase.foodappdsl#//@users.0"/>
+      <semanticElements xmi:type="foodapp:Customer" href="userbase.foodappdsl#//@users.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_WmR48IFDEe6z4rIlbqreZg" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_EfzvsIErEe6F6MrYNqhpuQ" sourceNode="_A46B0IEoEe6_aJTejej71g" targetNode="_75IxoYEmEe6tz4rScLdLxQ">
+      <target xmi:type="foodapp:Customer" href="My.foodapp#//@users.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_EfzvsYErEe6F6MrYNqhpuQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_EfzvsoErEe6F6MrYNqhpuQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_JnTjFIEtEe6xtPcKsQAuvg" name="Adam" outgoingEdges="_GkSH4IE2Ee65XNdS-5LDWQ _DgGvwIE3Ee6rId678vqWpQ" incomingEdges="_GkMoUoE2Ee65XNdS-5LDWQ _DgCeVIE3Ee6rId678vqWpQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.2"/>
+      <semanticElements xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_JnTjFYEtEe6xtPcKsQAuvg" labelSize="12" labelPosition="node" width="10" height="5" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_nsJZQIE5Ee6LXbDmexmkuA" name="deliverydriver2" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.6"/>
+      <semanticElements xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_nsKAUIE5Ee6LXbDmexmkuA" labelSize="12" labelPosition="node" width="10" height="5" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WmTuJIFDEe6z4rIlbqreZg" name="&quot;Micheal&quot;" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:DeliveryDriver" href="userbase.foodappdsl#//@users.1"/>
+      <semanticElements xmi:type="foodapp:DeliveryDriver" href="userbase.foodappdsl#//@users.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_WmTuJYFDEe6z4rIlbqreZg" labelSize="12" labelPosition="node" width="10" height="5" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_JnTjF4EtEe6xtPcKsQAuvg" name="Tokyo Restaurant" outgoingEdges="_GkSH5YE2Ee65XNdS-5LDWQ" incomingEdges="_GkPEkoE2Ee65XNdS-5LDWQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:RestaurantManager" href="My.foodapp#//@users.3"/>
+      <semanticElements xmi:type="foodapp:RestaurantManager" href="My.foodapp#//@users.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_JnTjGIEtEe6xtPcKsQAuvg" labelSize="12" labelPosition="node" width="10" height="5" color="209,209,209">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ok60UIE5Ee6LXbDmexmkuA" name="restaurantmanager2" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:RestaurantManager" href="My.foodapp#//@users.7"/>
+      <semanticElements xmi:type="foodapp:RestaurantManager" href="My.foodapp#//@users.7"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_ok60UYE5Ee6LXbDmexmkuA" labelSize="12" labelPosition="node" width="10" height="5" color="209,209,209">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WmTuK4FDEe6z4rIlbqreZg" name="&quot;Thai Food&quot;" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="foodapp:RestaurantManager" href="userbase.foodappdsl#//@users.3"/>
+      <semanticElements xmi:type="foodapp:RestaurantManager" href="userbase.foodappdsl#//@users.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_WmTuLIFDEe6z4rIlbqreZg" labelSize="12" labelPosition="node" width="10" height="5" color="209,209,209">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GkKMEIE2Ee65XNdS-5LDWQ" sourceNode="_75IxoYEmEe6tz4rScLdLxQ" targetNode="_A46B0IEoEe6_aJTejej71g">
+      <target xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GkKMEYE2Ee65XNdS-5LDWQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GkKMEoE2Ee65XNdS-5LDWQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GkMoUoE2Ee65XNdS-5LDWQ" sourceNode="_75IxoYEmEe6tz4rScLdLxQ" targetNode="_JnTjFIEtEe6xtPcKsQAuvg">
+      <target xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GkOdgIE2Ee65XNdS-5LDWQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge2']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GkOdgYE2Ee65XNdS-5LDWQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge2']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GkPEkoE2Ee65XNdS-5LDWQ" sourceNode="_75IxoYEmEe6tz4rScLdLxQ" targetNode="_JnTjF4EtEe6xtPcKsQAuvg">
+      <target xmi:type="foodapp:CustomerService" href="My.foodapp#//@users.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GkPEk4E2Ee65XNdS-5LDWQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge3']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GkPElIE2Ee65XNdS-5LDWQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerserviceEdge3']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GkSH4IE2Ee65XNdS-5LDWQ" sourceNode="_JnTjFIEtEe6xtPcKsQAuvg" targetNode="_75IxoYEmEe6tz4rScLdLxQ">
+      <target xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GkSH4YE2Ee65XNdS-5LDWQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='deliverydriverEdge2']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GkSH4oE2Ee65XNdS-5LDWQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='deliverydriverEdge2']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GkSH5YE2Ee65XNdS-5LDWQ" sourceNode="_JnTjF4EtEe6xtPcKsQAuvg" targetNode="_75IxoYEmEe6tz4rScLdLxQ">
+      <target xmi:type="foodapp:RestaurantManager" href="My.foodapp#//@users.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GkSH5oE2Ee65XNdS-5LDWQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='restaurantEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GkSH54E2Ee65XNdS-5LDWQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='restaurantEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DgCeVIE3Ee6rId678vqWpQ" sourceNode="_A46B0IEoEe6_aJTejej71g" targetNode="_JnTjFIEtEe6xtPcKsQAuvg">
+      <target xmi:type="foodapp:Customer" href="My.foodapp#//@users.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DgETgIE3Ee6rId678vqWpQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerEdge2']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DgETgYE3Ee6rId678vqWpQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='customerEdge2']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DgGvwIE3Ee6rId678vqWpQ" sourceNode="_JnTjFIEtEe6xtPcKsQAuvg" targetNode="_A46B0IEoEe6_aJTejej71g">
+      <target xmi:type="foodapp:DeliveryDriver" href="My.foodapp#//@users.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DgGvwYE3Ee6rId678vqWpQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='deliverydriverEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DgGvwoE3Ee6rId678vqWpQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@edgeMappings[name='deliverydriverEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_5XbIUX-xEe6iRO5E-4Wn8Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.sample.foodapp.design/description/foodapp.odesign#//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer"/>
+    <target xmi:type="foodapp:UserBase" href="My.foodapp#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
