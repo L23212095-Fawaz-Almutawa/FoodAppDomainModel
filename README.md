@@ -29,6 +29,11 @@ Plugin building and testing methods package for the project built with the chose
 
 ![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/51e37552-a94d-4294-8fb4-eda6166a22c5)
 
+## Warning
+Some files have been added however may seem 'hidden' in the GitHub repository. These files include:
+- runtime-EclipseXtext [Folder]
+- .project [File]
+
 ## Documentation
 
 [RM2PT Documentation - by RM2PT](https://rm2pt.com/doc/dev/eclipsemda)
