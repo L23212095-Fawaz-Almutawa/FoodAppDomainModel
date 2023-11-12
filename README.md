@@ -9,19 +9,26 @@ The target model (chosen project) is the same continuation from [LAB01](https://
 ## Eclipse EMF Metamodeling Part:
 Conducting EMF metamodeling for the selected model
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/f789ea4f-f843-40ed-a582-243008d58bd7)
+
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/583b7014-7bf6-43b8-80a6-77e82d49f1c3)
+
+
 ## Eclipse Sirius Graphical Language Modeling Part:
 Eclipse Sirius usage and based on the already built metamodel configure its Sirius
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/4575d630-ca71-4e20-9a58-d3e9a6b9b901)
+
 ## Eclipse Xtext Textual Language Modeling Part:
 Eclipse Xtext usage and based on the already built metamodel automatically generate Xtext files
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/653a305c-8934-4039-9741-62f644b3e725)
+
 ## Plugin Building and Testing Part:
 Plugin building and testing methods package for the project built with the chosen model as a plugin and testing
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppDomainModel/assets/148682608/51e37552-a94d-4294-8fb4-eda6166a22c5)
+
 ## Documentation
 
 [RM2PT Documentation - by RM2PT](https://rm2pt.com/doc/dev/eclipsemda)
