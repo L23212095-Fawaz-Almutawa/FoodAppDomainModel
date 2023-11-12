@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="foodapp" version="12.0.0.2017041100">
+  <ownedViewpoints name="users" modelFileExtension="foodapp">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Users diagram" domainClass="foodapp::UserBase" enablePopupBars="true">
+      <metamodel href="../../org.rm2pt.sample.foodapp.metamodel/model/foodapp.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="CustomerNode" domainClass="foodapp::Customer">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CustomerServiceNode" domainClass="foodapp::CustomerService">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DeliveryDriverNode" domainClass="foodapp::DeliveryDriver">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="RestaurantManagerNode" domainClass="foodapp::RestaurantManager">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="customerEdge" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetFinderExpression="feature:customerservice">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="customerEdge2" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']" targetFinderExpression="feature:deliverydriver">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="customerserviceEdge" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']" targetFinderExpression="feature:customer">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="customerserviceEdge2" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']" targetFinderExpression="feature:deliverydriver">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="customerserviceEdge3" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']" targetFinderExpression="feature:restaurantmanager">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="deliverydriverEdge" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']" targetFinderExpression="feature:customer">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="deliverydriverEdge2" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetFinderExpression="feature:customerservice">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="restaurantEdge" sourceMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']" targetMapping="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']" targetFinderExpression="feature:customerservice">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateCustomer" label="Customer" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var::container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="foodapp::Customer" referenceName="users">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'customer'+container.users->filter(foodapp::Customer)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateCustomerService" label="CustomerService" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='CustomerServiceNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var::container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="foodapp::CustomerService" referenceName="users">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'customerservice'+container.users->filter(foodapp::CustomerService)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateDeliveryDriver" label="DeliveryDriver" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='DeliveryDriverNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var::container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="foodapp::DeliveryDriver" referenceName="users">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'deliverydriver'+container.users->filter(foodapp::DeliveryDriver)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateRestaurantManager" label="RestaurantManager" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='users']/@ownedRepresentations[name='Users%20diagram']/@defaultLayer/@nodeMappings[name='RestaurantManagerNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var::container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="foodapp::RestaurantManager" referenceName="users">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'restaurantmanager'+container.users->filter(foodapp::RestaurantManager)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.rm2pt.sample.foodapp.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
